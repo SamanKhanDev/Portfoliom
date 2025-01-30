@@ -11,7 +11,7 @@ export default function ProjectDetails() {
   }
 
   return (
-    <div className="max-w-3xl mx-auto my-10 p-5 bg-white shadow-lg rounded-lg">
+    <div className="w-[500px] mx-auto my-10 p-5 bg-white shadow-lg rounded-lg">
       <h1 className="text-3xl font-bold mb-4">{project["project-name"]}</h1>
       <img
         src={project["project-image-url"]}
