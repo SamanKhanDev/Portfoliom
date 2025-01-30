@@ -20,7 +20,7 @@ export default function About() {
           <p className="text-lg text-gray-500 text-center md:text-justify font-normal tracking-tigh">
             {configData.aboutDesc}
           </p>
-          <img className="border rounded-md p-3 grayscale shadow-md" src="src/assets/source.png" alt="" />
+          <img className="border rounded-md p-3 grayscale shadow-md" src="https://miro.medium.com/v2/resize:fit:1400/format:webp/0*qKaI6a9c0mZi5P1P.jpeg" alt="IMage to me" />
         </div>
       </div>
       <div className="flex flex-col items-center justify-center">
