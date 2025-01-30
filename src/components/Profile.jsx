@@ -1,4 +1,4 @@
-import profile from "../assets/profile.png";
+import profile from "../assets/logo.webp";
 import CopyEmailButton from "./CopyEmailButton";
 import { getConfigData } from "../data/configReader";
 
