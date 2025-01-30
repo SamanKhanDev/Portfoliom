@@ -15,7 +15,7 @@ export default function About() {
       <div className="px-7 py-7 flex flex-col flex-col-reverse md:flex md:flex-row md:items-center md:justify-between pt-3">
         <div className="flex flex-col gap-y-4">
           <h1 className="text-4xl md:text-4xl font-semibold text-center md:text-justify tracking-tighter">
-            It's me {configData.name}
+            It's me, {configData.name}
           </h1>
           <p className="text-lg text-gray-500 text-center md:text-justify font-normal tracking-tigh">
             {configData.aboutDesc}
