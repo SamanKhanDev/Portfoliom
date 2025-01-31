@@ -36,20 +36,22 @@ export default function About() {
 
 
       <div className="max-w-md mx-auto mb-8 bg-white shadow-lg rounded-2xl p-5">
-      <h2 className="text-2xl font-bold text-gray-800 mb-4 text-center">
-        My Skills
-      </h2>
-      <ul className="grid grid-cols-2 gap-3">
-        {skills.map((skill, index) => (
-          <li
-            key={index}
-            className="bg-grey-500 text-gray-900 py-2 px-4 rounded-lg text-center shadow-md"
-          >
-            {skill}
-          </li>
-        ))}
-      </ul>
-    </div>
+  <h2 className="text-2xl font-bold text-gray-800 mb-4 text-center">
+    My Skills
+  </h2>
+  <ul className="grid grid-cols-2 gap-3">
+    {skills.map((skill, index) => (
+      <li
+        key={index}
+        className="bg-gray-200 text-gray-900 py-2 px-4 rounded-lg text-center shadow-md 
+                   hover:bg-gray-700 hover:text-white hover:scale-105 transition duration-300 ease-in-out cursor-pointer"
+      >
+        {skill}
+      </li>
+    ))}
+  </ul>
+</div>
+
       <div className="flex flex-col items-center justify-center">
         <h1 className="text-xl font-semibold">Creating magic behind the scenes!.</h1>
         <p className="text-sm font-normal text-gray-500 text-center px-3">
