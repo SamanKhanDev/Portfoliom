@@ -4,6 +4,16 @@ import { getConfigData } from "../data/configReader";
 
 export default function About() {
   const configData = getConfigData();
+  const skills = [
+    "Adobe After Effects",
+    "Adobe Premiere Pro",
+    "Photoshop",
+    "Illustrator",
+    "DaVinci Resolve",
+    "Final Cut Pro",
+    "Blender",
+    "Cinema 4D",
+  ];
   return (
     <>
       <div className="px-7 py-7">
@@ -23,6 +33,23 @@ export default function About() {
           <img className="border rounded-md p-3 grayscale shadow-md" src="https://miro.medium.com/v2/resize:fit:1400/format:webp/0*qKaI6a9c0mZi5P1P.jpeg" alt="IMage to me" />
         </div>
       </div>
+
+
+      <div className="max-w-md mx-auto mb-8 bg-white shadow-lg rounded-2xl p-5">
+      <h2 className="text-2xl font-bold text-gray-800 mb-4 text-center">
+        My Skills
+      </h2>
+      <ul className="grid grid-cols-2 gap-3">
+        {skills.map((skill, index) => (
+          <li
+            key={index}
+            className="bg-grey-500 text-gray-900 py-2 px-4 rounded-lg text-center shadow-md"
+          >
+            {skill}
+          </li>
+        ))}
+      </ul>
+    </div>
       <div className="flex flex-col items-center justify-center">
         <h1 className="text-xl font-semibold">Creating magic behind the scenes!.</h1>
         <p className="text-sm font-normal text-gray-500 text-center px-3">
