@@ -6,7 +6,7 @@ export default function ProjectCards() {
     const projects = configData.projects;
 
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 p-5 bg-white text-gray-500 min-h-screen justify-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 p-5 bg-white text-gray-500  justify-items-center">
             {projects.map((project, index) => (
                 <Link
                     key={index}
