@@ -6,12 +6,13 @@ export default function Home() {
     <>
    <Profile />
    <Projects />
-      <div className="flex flex-col items-center justify-center py-8">
-        <h1 className="text-xl font-semibold">"Creating magic behind the scenes!        </h1>
-        <p className="text-md font-normal text-gray-500 text-center px-3">
-        Turning every moment into a story and crafting visual wonders! 
-        </p>
-      </div>
+   <div className="flex flex-col items-center justify-center py-8 text-center">
+  <h1 className="text-lg font-semibold">Creating magic behind the scenes!</h1>
+  <p className="text-md font-normal text-gray-500 px-3">
+    Turning every moment into a story and crafting visual wonders!
+  </p>
+</div>
+
     </>
   );
 }

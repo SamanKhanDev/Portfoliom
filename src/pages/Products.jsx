@@ -10,12 +10,12 @@ const UpworkProfiles = () => {
     <div className="p-8">
       <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "40px" }}>
       {upworkLinks.map((profile, index) => (
-        <div
+        <div className="md:w-[450px]"
           key={index}
           style={{
             border: "1px solid #ccc",
             padding: "15px",
-            width: "450px",
+            width: "280px",
             borderRadius: "10px",
             textAlign: "center",
             transition: "transform 0.3s, box-shadow 0.3s",
@@ -24,6 +24,7 @@ const UpworkProfiles = () => {
             backgroundSize: "cover",
             backgroundRepeat: "repeat",
             backgroundPosition: "center",
+            
           }}
           onMouseEnter={(e) => {
             e.currentTarget.style.transform = "scale(1.05)";

@@ -27,7 +27,7 @@ export default function About() {
           <h1 className="text-4xl md:text-4xl font-semibold text-center md:text-justify tracking-tighter">
             It's me, {configData.name}
           </h1>
-          <p className="text-lg text-gray-500 text-center md:text-justify font-normal tracking-tigh">
+          <p className="text-lg text-gray-500 text-center md:text-justify font-normal tracking-tight">
             {configData.aboutDesc}
           </p>
           <img className="border rounded-md p-3 grayscale shadow-md" src="https://miro.medium.com/v2/resize:fit:1400/format:webp/0*qKaI6a9c0mZi5P1P.jpeg" alt="IMage to me" />
@@ -52,10 +52,10 @@ export default function About() {
   </ul>
 </div>
 
-      <div className="flex flex-col items-center justify-center">
-        <h1 className="text-xl font-semibold">Creating magic behind the scenes!.</h1>
-        <p className="text-sm font-normal text-gray-500 text-center px-3">
-        Turning every moment into a story and crafting visual wonders! 
+      <div className="flex flex-col items-center justify-center py-8 text-center">
+        <h1 className="text-lg font-semibold">Creating magic behind the scenes!</h1>
+        <p className="text-md font-normal text-gray-500 px-3">
+          Turning every moment into a story and crafting visual wonders!
         </p>
       </div>
       <div className="flex flex-col flex-col-reverse md:flex md:flex-row md:items-center justify-center py-8">
