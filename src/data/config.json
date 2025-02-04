@@ -1,14 +1,15 @@
 {
   "job": "Video Editing",
-  "name": "Koder",
+  "name": "Samankhan",
   "desc": "Visual expression — new possibilities.",
-  "aboutDesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+   "aboutDesc": "Hey there! I’m a creative soul living in the world of video editing and animation. Every frame tells a story, every motion sparks emotion! \n\nWith After Effects and Premiere Pro, I transform ordinary footage into captivating visuals. Quality, creativity, and attention to detail are my top priorities.\n\n\nServices:\n- Video Editing\n- Animation & Motion Graphics\n- Commercial & Content Creation\n\nLet’s bring your ideas to life!",
+  
   "email": "Islomov@gmail.com",
   "status": "on",
   "hireMeLink": "https://telegram.me/webupgrade",
   "projects": [
     {
-      "project-image-url": "https://github.com/kaanayyildiz/benfolio/assets/39806458/9d826c30-0135-4620-8e0f-bc3460848e5e",
+      "project-image-url": "https://259506.selcdn.ru/sites-static/site731686/d9d9beb2-b566-4b7d-b48f-3619f26d56bf/d9d9beb2-b566-4b7d-b48f-3619f26d56bf-4766663.jpeg",
       "project-name": "First video",
       "project-desc": "After Effect and Priimer Pro",
       "youtube-video": "https://www.youtube.com/watch?v=5yGDtdvoeKc",
@@ -44,11 +45,11 @@
     },
     {
       "icon": "FaInstagram",
-      "link": "https://instagram.com"
+      "link": "https://instagram.com/okeng.coder"
     },
     {
       "icon": "FaGithub",
-      "link": "https://github.com"
+      "link": "https://github.com/SamanKhanDev"
     },
     {
       "icon": "FaLinkedinIn",
