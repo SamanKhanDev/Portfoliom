@@ -24,7 +24,7 @@ export default function Social() {
               const IconComponent = iconMap[socialLink.icon];
 
               return (
-                <a key={index} href={socialLink.link} className="bg-white p-2 rounded-full duration-300 border-2 border-gray-100 hover:border-gray-200 drop-shadow-sm">
+                <a key={index} href={socialLink.link} target="_blank" className="bg-white p-2 rounded-full duration-300 border-2 border-gray-100 hover:border-gray-200 drop-shadow-sm">
                   {<IconComponent size={20} />}
                 </a>
               );

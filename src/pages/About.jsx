@@ -7,7 +7,7 @@ export default function About() {
   const skills = [
     "Adobe After Effects",
     "Adobe Premiere Pro",
-    "Illustrator",
+    "Sound cleaning",
     "Capcut",
     "Cinema 4D",
   ];

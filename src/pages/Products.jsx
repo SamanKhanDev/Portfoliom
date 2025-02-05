@@ -14,6 +14,7 @@ const UpworkProfiles = () => {
     <div className="p-8">
       <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "40px" }}>
       {upworkLinks.map((profile, index) => (
+        <Link to={profile.url} target="_blank">
         <div className="md:w-[450px]"
           key={index}
           style={{
@@ -52,6 +53,7 @@ const UpworkProfiles = () => {
           </a></div>
          </div>
         </div>
+        </Link>
       ))}
     </div>
     </div>
